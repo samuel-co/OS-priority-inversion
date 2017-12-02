@@ -1,0 +1,24 @@
+Running on random job sequence [[0, 3], [1, 2], [5, 3], [6, 2], [14, 1], [18, 3], [19, 3], [21, 2], [22, 3], [24, 3]]
+time 0, T₃3T₃
+time 1, T₂NNNNNNNNNNT₂
+time 11, T₂NNNNNNNNNNT₂
+time 21, T₃33T₃
+time 22, T₂NNNNNNNNNNT₂
+time 32, T₃333T₃
+time 33, T₁111T₁
+time 36, T₃333T₃
+time 39, T₃333T₃
+time 42, T₃333T₃
+time 45, T₃333T₃
+time 48, T₃333T₃
+
+Running on supplied job sequence [[1, 3], [3, 2], [6, 3], [8, 1], [10, 2], [12, 3], [26, 1]]
+time 1, T₃33T₃
+time 3, T₂NNNNNNNNNNT₂
+time 13, T₂NNNNNNNNNNT₂
+time 23, T₃333T₃
+time 24, T₁111T₁
+time 27, T₁111T₁
+time 30, T₃333T₃
+time 33, T₃333T₃
+
