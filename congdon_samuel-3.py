@@ -78,7 +78,7 @@ class Job_Queue:
 
 
 def run_jobs(fout, job_list):
-    ''' This method processes a list of jobs priority inversion. '''
+    ''' This method processes a list of jobs allowing for priority inversion to occur. '''
 
     buffer = Buffer()
     job_queue = Job_Queue()
@@ -88,13 +88,6 @@ def run_jobs(fout, job_list):
 
     # as long as there remains a job to be completed
     while job_list or job_queue.jobs or current_job:
-
-        if False:
-            fout.write('time {}, queue '.format(current_time))
-            for job in job_queue.jobs:
-                fout.write('{}, '.format(job.task.type))
-            fout.write('\n')
-
 
         # if there is no job running
         if not current_job:
